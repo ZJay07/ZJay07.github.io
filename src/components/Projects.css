@@ -1,0 +1,17 @@
+/* src/components/Projects.css */
+.projects {
+    padding: 50px;
+    background-color: #fff;
+  }
+  
+  .project-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .project {
+    padding: 20px;
+    border: 1px solid #ddd;
+  }
+  

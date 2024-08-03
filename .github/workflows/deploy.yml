@@ -20,8 +20,8 @@ jobs:
       run: npm run build
     - name: Configure Git
       run: |
-        git config --global user.email "your.email@example.com"
-        git config --global user.name "Your Name"
+        git config --global user.email "choyzhengjay@gmail.com"
+        git config --global user.name "Jay Choy"
     - name: Deploy to GitHub Pages
       run: npm run deploy
       env:

@@ -1,0 +1,2 @@
+yarn add react-vertical-timeline-component framer-motion
+

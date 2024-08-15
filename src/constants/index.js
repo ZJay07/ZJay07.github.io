@@ -3,6 +3,7 @@ import {
     unifyai,
     buzzSocial,
     foodCLUB,
+    macquarie,
   } from '../assets';
   
   export const navLinks = [
@@ -63,6 +64,17 @@ import {
       points: [
         'Improved the Ivy framework by fixing test cases and implementing new features in their Machine Learning library',
         'Enhance the current Ivy framework and extending features as part of the development team',
+      ],
+    },
+    {
+      title: 'Software Engineer',
+      company_name: 'Macquarie Group',
+      icon: macquarie,
+      iconBg: '#E6DEDD',
+      date: 'June 2024 - August 2024',
+      points: [
+        'Implemented task automation to update database schemas based on changes from the exchange limit definitions',
+        'Enhanced data collection efficiency by 200% through concurrent API calls.'
       ],
     },
   ];

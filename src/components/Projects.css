@@ -1,17 +1,51 @@
 /* src/components/Projects.css */
+
+/* Default (light mode) styles */
 .projects {
-    padding: 50px;
-    background-color: #fff;
-  }
-  
-  .project-list {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-  }
-  
-  .project {
-    padding: 20px;
-    border: 1px solid #ddd;
-  }
-  
+  padding: 50px;
+  background-color: #fff;
+}
+
+.projects h2 {
+  color: #333; /* Default color for the h2 header */
+}
+
+.project-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.project {
+  padding: 20px;
+  border: 1px solid #ddd;
+  background-color: #f9f9f9; /* Light mode background color */
+  color: #333; /* Default text color */
+}
+
+.project h3 {
+  color: #333; /* Default color for h3 headers */
+}
+
+/* Dark mode styles */
+body.dark .projects {
+  background-color: #292c35;
+}
+
+body.dark .projects h2 {
+  color: #fff; /* Dark mode color for the h2 header */
+}
+
+body.dark .project {
+  background-color: #444;
+  border-color: #666;
+  color: #fff;
+}
+
+body.dark .project h3 {
+  color: #fff; /* Dark mode color for h3 headers */
+}
+
+body.dark .project p {
+  color: #ddd; /* Dark mode color for paragraphs */
+}

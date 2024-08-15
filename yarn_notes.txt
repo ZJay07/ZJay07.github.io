@@ -1,2 +1,3 @@
 yarn add react-vertical-timeline-component framer-motion
-
+yarn add @hotwired/stimulus
+yarn add @fortawesome/fontawesome-free

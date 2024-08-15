@@ -19,4 +19,12 @@
     text-decoration: none;
     font-size: 18px;
   }
-  
+
+  /* Dark mode styles */
+body.dark .header {
+  background-color: #fff;
+}
+
+body.dark .header nav ul li a {
+  color: #333;
+}

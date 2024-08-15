@@ -1,6 +1,6 @@
 import { Controller } from "@hotwired/stimulus";
 
-export default class extends Controller {
+export default class darkMode extends Controller {
   connect() {
     this.setInitialMode();
     const checkbox = document.getElementById("checkbox");

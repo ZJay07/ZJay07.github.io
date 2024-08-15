@@ -1,8 +1,15 @@
 /* src/components/Footer.css */
+
+/* Default (light mode) styles */
 .footer {
-    text-align: center;
-    padding: 10px;
-    background-color: #333;
-    color: white;
-  }
-  
+  text-align: center;
+  padding: 10px;
+  background-color: #333;
+  color: white;
+}
+
+/* Dark mode styles */
+body.dark .footer {
+  background-color: #292c35 !important;
+  color: #fff !important;
+}

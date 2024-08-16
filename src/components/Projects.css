@@ -3,7 +3,7 @@
 /* Default (light mode) styles */
 .projects {
   padding: 50px;
-  background-color: #fff;
+  background-color: #FBFBFF;
 }
 
 .projects h2 {
@@ -29,7 +29,7 @@
 
 /* Dark mode styles */
 body.dark .projects {
-  background-color: #292c35;
+  background-color: #1E293B;
 }
 
 body.dark .projects h2 {
